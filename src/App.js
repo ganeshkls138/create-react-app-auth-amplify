@@ -28,7 +28,7 @@ class App extends Component {
       <h2></h2>
            <a
             className="App-link"
-            href="https://www.google.com"
+            href="https://master.d1ayjwilzbfiqz.amplifyapp.com/index.html"
             target="_blank"
             rel="noopener noreferrer"
           >
