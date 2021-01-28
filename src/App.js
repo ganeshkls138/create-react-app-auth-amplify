@@ -11,22 +11,36 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-             Welcome <code>to</code> Logiq.
-          </p>
-          <a
-            className="App-link"
-           href="https://reactjs.org"
-           target="_blank"
-           rel="noopener noreferrer"
-          >
-            The IOT  things registering site
-          </a>
-        </header>
-      </div>
-    );
-  }
+          <h1><b>welcome to logiq</b></h1>
+      <form>
+      <fieldset>
+         <label>
+           <p>Company_name</p>
+           <input name=" Company_name" />
+           <p>Company_address</p>
+           <input name=" Company_address" />
+           <p>Country</p>
+           <input name=" Country" />
+         </label>
+       </fieldset>
+       <button type="submit">Submit</button>
+      </form>
+      <h2></h2>
+      <AmplifySignOut/>
+      <h3></h3>
+        <a
+      className="App-link"
+               href="https://www.google.com"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                >
+                  The IOT  things registering site
+  </a>
+
+      </header>
+
+    </div>
+  );
 }
 
 export default withAuthenticator(App, true);
