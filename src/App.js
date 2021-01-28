@@ -25,13 +25,16 @@ class App extends Component {
        </fieldset>
        <button type="submit">Submit</button>
      </form>
+      <h2></h2>
            <a
             className="App-link"
             href="https://www.google.com"
             target="_blank"
             rel="noopener noreferrer"
           >
+      <b>
              click here for  registering device
+      </b>
           </a>
         </header>
       </div>
