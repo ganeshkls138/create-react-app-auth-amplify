@@ -31,7 +31,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-             The IOT  things registering site
+             click here for  registering device
           </a>
         </header>
       </div>
