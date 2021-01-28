@@ -4,7 +4,6 @@ import './App.css';
 import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
 import aws_exports from './aws-exports';
-import {AmplifySignOut , withAuthenticator} from '@aws-amplify/ui-react';
 Amplify.configure(aws_exports);
 Amplify.configure(awsconfig);
 
