@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          
+          <h1><b>welcome to logiq</b></h1>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
