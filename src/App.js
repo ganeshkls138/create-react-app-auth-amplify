@@ -12,10 +12,20 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1><b>welcome to logiq</b></h1>
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
+      <form>
+      <fieldset>
+         <label>
+      <p>Company_name</p>
+           <input name=" Company_name" />
+           <p>Company_address</p>
+           <input name=" Company_address" />
+           <p>Country</p>
+           <input name=" Country" />
+         </label>
+       </fieldset>
+       <button type="submit">Submit</button>
+     </form>
+           <a
             className="App-link"
             href="https://www.google.com"
             target="_blank"
